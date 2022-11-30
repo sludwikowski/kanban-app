@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body {
+    height: 100vh;
+    padding: 2%;
+    background-color: #00030d;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 1440px;
+    height: 100%;
+    margin: auto;
+}
+
+.title {
+    margin-bottom: 10px;
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    line-height: 1;
+}
+
+/* ------SECTION FORM ------- */
+
+.section__form {
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #151e26;
+}
+
+.section__form--title {
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    line-height: 1;
+}
+
+.form__input {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.btn-add {
+    background-color: #aeb7bf;
+    border: none;
+    color: white;
+    padding: 8px 17px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition: 0.5s;
+}
+
+.btn-add:hover {
+    background-color: #d2d6d9;
+}
+/* ------SECTION ERRORS ------- */
+
+.errors {
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #212121;
+    background-color: #5c1e1e;
+}
+
+.errors__title {
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    line-height: 1;
+}
+
+.errors__item {
+    line-height: 1.5;
+}
+
+/* ------SECTION KANBAN ------- */
+
+.kanban__board {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: #151e26;
+}
+
+.kanban__board--column {
+    flex-grow: 2;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* -----COLUMN ----- */
+
+.column {
+    flex-basis: auto;
+    height: 100%;
+    width: 18%;
+    padding: 15px 10px;
+    border-radius: 8px;
+    list-style: none;
+    background-color: #485359;
+}
+
+.column__title {
+    margin-bottom: 15px;
+}
+
+/* -----TASK----- */
+
+.task {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #7b868c;
+    list-style: none;
+    transition: 0.5s;
+}
+
+.task:hover {
+    cursor: pointer;
+    transform: scale(1.05, 1.05);
+}
+
+.task__title {
+    text-transform: uppercase;
+}
+
+.task__user {
+    font-size: 14px;
+    font-weight: 300;
+    margin: 10px 0;
+}
+
+.task__done {
+    background-color: #04bf68;
+    border-color: #04bf68;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.task__remove {
+    background-color: #ff2927;
+    border-color: #ff2927;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.btn {
+    display: inline-block;
+    padding: 5px 8px;
+    margin-right: 10px;
+}
