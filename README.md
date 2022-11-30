@@ -74,13 +74,12 @@ export const useStorage = () => {
 <h1 align="center">Hi , I'm Szymon <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h1>
 <h4 align="center">I am looking for my first professional experience.</h4>
 
-Find me on...
+ <h3>Connect with me:</h3>
 
-<p align="center">
-	<a href="https://github.com/sludwikowski"><img alt="github" width="10%" style="padding:5px" src="https://img.icons8.com/clouds/100/000000/github.png"/></a>
-	<a href="https://www.linkedin.com/in/sludwikowski/"><img alt="linkedin" width="10%" style="padding:5px" src="https://img.icons8.com/clouds/100/000000/linkedin.png"/></a>
-    <a href="mailto:ludwikowski.szym1993@gmail.com"><img alt="E-mail" width="10%" style="padding:5px" src="https://img.icons8.com/clouds/100/000000/email.png"/></a>
-</p>
+[<img align="center" alt="linked-in" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/sludwikowski) 
+[<img align="center" alt="facebook" src="https://img.shields.io/badge/facebook-%231877F2.svg?&style=for-the-badge&logo=facebook&logoColor=white" />](https://www.facebook.com/szymonludwikowskii/)
+
+
 &nbsp;
 
 ## 👏 Thanks / Special thanks / Credits
